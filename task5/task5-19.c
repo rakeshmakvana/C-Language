@@ -2,24 +2,20 @@
 
 main(){
 	
-	int row, col, i = 1, r = 1;
+	int row, col, count = 1;
 	
 	for(row = 1; row <= 5; row++){
 		
 		
 		
-		for(col = 1; col <= r; col++){
+		for(col = 1; col <= row; col++){
 			
-			if(i == 10){
-				i = 1;
-				printf("%d",i);
-				i++;
-			}
+			printf(" %d ",count);
+			count++;
+			
 		}
 		
 		printf("\n");
-		
-		r *= 2;
 		
 	}
 	

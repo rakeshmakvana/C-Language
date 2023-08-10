@@ -2,12 +2,18 @@
 
 main(){
 	
-	char row, col;
+	int row, col;
+	char count = 'A';
 	
-	for(row = 'A'; row <= 'O'; row++){
+	for(row = 1; row <= 5; row++){
 		
-		for(col = 'A'; col <= row; col++){
-			printf(" %c ",col);
+		
+		
+		for(col = 1; col <= row; col++){
+			
+			printf(" %c ",count);
+			count++;
+			
 		}
 		
 		printf("\n");
